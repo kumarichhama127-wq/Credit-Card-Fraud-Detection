@@ -1,0 +1,69 @@
+# 💳 Credit Card Fraud Detection Using Machine Learning
+
+<p align="center">
+  <b>Machine Learning | Classification | Imbalanced Data | Fraud Detection</b>
+</p>
+
+---
+
+## 📌 Project Overview
+
+Credit card fraud is a major challenge in digital financial transactions. 
+Fraudulent transactions are usually very small compared with genuine transactions, 
+which makes fraud detection a highly imbalanced classification problem.
+
+This project develops a Machine Learning-based system to classify credit card 
+transactions as **Genuine** or **Fraudulent**.
+
+The project follows a complete Data Science workflow including:
+
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Feature scaling
+- Imbalanced data handling using SMOTE
+- Machine Learning classification
+- Model evaluation
+- Feature importance analysis
+- Fraud prediction
+
+---
+
+## 🎯 Objectives
+
+The main objectives of this project are:
+
+- Analyze credit card transaction data
+- Understand patterns in fraudulent transactions
+- Perform data cleaning and preprocessing
+- Handle highly imbalanced transaction data
+- Apply SMOTE to balance the training data
+- Build classification models
+- Compare different Machine Learning algorithms
+- Evaluate models using multiple performance metrics
+- Predict whether a transaction is genuine or fraudulent
+
+---
+
+## 📊 Dataset
+
+The project uses the **Credit Card Fraud Detection** dataset available on Kaggle.
+
+### Dataset Source
+
+[Kaggle - Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
+### Dataset Statistics
+
+| Property | Value |
+|---|---:|
+| Original Transactions | 284,807 |
+| Genuine Transactions | 284,315 |
+| Fraudulent Transactions | 492 |
+| Features | 30 |
+| Target Column | `Class` |
+
+### Target Variable
+
+```text
+Class = 0 → Genuine Transaction
+Class = 1 → Fraudulent Transaction
